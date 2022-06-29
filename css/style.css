@@ -1,0 +1,298 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+
+
+/*comon start*/
+body{
+	margin: 0;
+	padding: 0;
+	font-family: sans-serif;
+	font-weight: 400;
+}
+/*comon end*/
+
+/*header start*/
+header{
+	background-size: cover;
+	background-repeat: no-repeat;
+	color: white;
+	background-image:url('../images/hb(1).jpg'); 
+	width: 100%;
+}
+.wrapper {
+	overflow: hidden;
+	margin: 0 auto;
+    width: 70%;
+    
+	/*border: 1px solid red;*/
+}
+
+
+
+.text {
+	margin-top: 10px;
+	float: left;
+	width: 15%;
+	/*border: 1px solid darkred;*/
+
+}
+
+
+
+.text h2{
+	font-size: 12px;
+
+}
+.text h3{
+	font-size: 14px;
+}
+
+.manu {
+	font-size: 12px;
+	/*margin-left: 10%;*/
+	float: right;
+	display: inline-block;
+	overflow: hidden;
+	width: 53%;
+    /*border: 1px solid yellow;*/
+}
+.manu ul{}
+.manu ul li{
+	padding: 17px 0 0 0;
+	float: left;
+	list-style: none;
+}
+.manu ul li a{
+	padding-right: 30px;
+ text-decoration: none;
+ color: white;
+}
+.manu ul li:last-child a{
+		padding-right: 0;
+}
+.manu button{
+	margin-top: 7px;
+	    color: white;
+    background: none;
+    border-radius: 86px;
+    float: right;
+    display: inline-block;
+    border: 1px solid white;
+    padding: 10px
+}
+.h-continar{
+	padding: 80px 0 196px 0;
+	text-align: center;
+    width: 70%;
+    /*border: 1px solid;*/
+    margin: 0 auto;
+}
+.h-continar p{
+	padding: 80px 0 0 0;
+	font-family: smooch;
+}
+.h-continar h1{
+	padding: 25px 0 15px 0;
+    font-size: 52px;
+}
+.h-continar button{
+    background-color: #fb2056;
+    padding: 8px 25px;
+    border: none;
+    border-radius: 20px;
+    color: white;
+    font-size: 9px;
+}
+/*header end*/
+/*single start*/
+.s-1{
+	
+	background-color: #f4f5f9;
+}
+.single{
+    color: #8c8389;
+	text-align: center;
+    margin: 0 auto 0;
+    /*border: 1px solid;*/
+    width: 40%;
+}
+.single p{
+	padding: 35px 0 15px 0;
+	font-family: math;
+	font-style: italic;
+	font-size: 14px;
+
+}
+ /*p:after{
+	position: absolute;
+	background-color: red;
+	height: 3px;
+	width: 100%;
+	bottom: -10px;*/
+
+
+.single h1{
+	 padding: 0 0 25px 0;
+	 font-size: 10px;
+
+}
+
+/*single end*/
+/*events start*/
+.events{}
+.wrapper2{
+	overflow: hidden;
+	width: 65%;
+	/*border: 1px solid blue;*/
+	margin: 0 auto;
+}
+
+
+.events h2{
+	text-align: center;
+    font-size: 20px;
+    border: 2px solid red;
+    width: 210px;
+    margin: 80px 0px 30px 285px;
+    padding: 25px;
+}
+.events1{
+	padding-bottom: 20px;
+	float: left;
+    margin: 0 0 0 35px;
+    /*display: inline-block;*/
+    text-align: center;
+    /*border: 1px solid red;*/
+    width: 30%;
+}
+.mg{
+	margin-left: 150px;
+}
+.events1 img{
+	width: 100%;
+}
+.events1 h1{
+	font-size: 12px;
+    margin: 13px 0 0 0;
+}
+
+.events1 p{
+	margin: 5px 0 0 0;
+	font-size: 10px;
+}
+.events1 h3{
+	color: red;
+    margin: 12px 0 0 0;
+    font-size: 10px;
+}
+/*events end*/
+
+/*banner start*/
+.banner1{
+	background-image:url("../images/banner1.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+
+}
+.b_text{
+	margin: 10px 0 0 637px;
+    /*border: 1px solid red;*/
+    width: 26%;
+    padding: 133px 0 126px 0;
+    color: white;
+
+}
+.b_text h1{
+	margin: 20px 0 30px 0;
+	font-size: 30px;
+
+}
+.b_text p{
+	font-size: 10px;
+    margin: 10px 0 18px 0px;
+
+}
+.b_text h2{
+	margin-top: 35px;
+	font-size: 10px;
+
+}
+/*banner end*/
+
+/*tours start*/
+.wrapper3{
+	overflow: hidden;
+    width: 70%;
+    /*border: 1px solid green;*/
+    margin: 0 auto;
+}
+/*tours a start*/
+.tours_a{
+	display: inline-block;
+    margin: 70px 0 0 140px;
+    /*border: 1px solid red;*/
+    width: 18%;
+}
+.tours_a h1{
+	font-size: 16px;
+}
+.tours_a p{
+	/*border: 1px solid blue;*/
+	margin: 20px 0 34px 0;
+	font-size: 10px;
+}
+.tours_a button{
+	border-radius: 10px;
+    background-color: red;
+    border: none;
+    color: white;
+    font-size: 10px;
+    padding: 5px 10px 5px 10px;
+}
+/*tours a end*/
+
+/*tours p start*/
+.tours_p{
+	margin: 61px 100px 0 0;
+    float: right;
+    overflow: hidden;
+    width: 50%;
+    /*border: 1px solid yellow;*/
+}
+.tours_p img{}
+.float{
+	margin: 8px;
+	width: 45%;
+    float: left;
+    /*border: 1px solid blue;*/
+}
+.float img{
+	margin: 0px 0 10px 0px;
+	width: 100%;
+}
+
+/*tours p end*/
+
+/*tours end*/
+
+/*footer start*/
+footer{
+	color: white;
+	background-color: #191919;
+}
+.last{
+	width: 40%;
+    /*border: 1px solid red;*/
+    margin: 0 auto;
+}
+.last p{
+	padding: 25px;
+	font-size: 10px;
+    text-align: center;
+    margin-top: 25px;
+    line-height: 2.5;
+}
+/*footer end*/
